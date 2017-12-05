@@ -30,7 +30,7 @@ class student {
 	}
 
 	file { '/etc/firefox/ssyspref.conf':
-		content => template('student/ssyspref.conf'),
+		content => template('student/ssyspref.js'),
 		require => Package['firefox'],
 	}
 }
