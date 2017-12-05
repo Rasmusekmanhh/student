@@ -29,7 +29,7 @@ class student {
 		allowcdrom => true,
 	}
 
-	file { '/etc/firefox/ssyspref.conf':
+	file { '/etc/firefox/syspref.js':
 		content => template('student/ssyspref.js'),
 	}
 }
