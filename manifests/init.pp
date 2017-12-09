@@ -4,6 +4,11 @@ class student {
 		allowcdrom => true,
 	}
 	
+	package { 'firefox':
+		ensure => 'installed',
+		allowcdrom => true,
+	}
+	
 	package { 'vlc':
                 ensure => 'installed',
                 allowcdrom => true,
