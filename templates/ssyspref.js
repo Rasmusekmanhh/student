@@ -155,4 +155,3 @@ user_pref("toolkit.telemetry.cachedClientID", "3528bb13-4c8b-4534-8e73-0ddbbed9b
 user_pref("toolkit.telemetry.previousBuildID", "20171129230835");
 user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
 user_pref("browser.startup.homepage", "https://mynet.haaga-helia.fi");
-lockPref("browser.startup.homepage", "https://mynet.haaga-helia.fi");
