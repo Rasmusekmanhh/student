@@ -8,6 +8,7 @@ class student {
 	package { 'firefox':
 		ensure => 'latest',
 		allowcdrom => true,
+     	}
 	
 	package { 'libreoffice':
 		ensure => 'latest',
