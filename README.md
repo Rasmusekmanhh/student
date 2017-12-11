@@ -1,4 +1,4 @@
-# Puppet moduuli joka 
+Puppet moduuli joka:
 1. Hakee päivitykset (apt-get update)
 2. Asentaa hyödyllisiä ohjelmia: LibreOffice + Suomi, VLC Media Player, Geogebra, Gimp, Audacity.
 3. Asentaa Firefoxin uusimman version ja tekee sille valmiiksi nämä muutokset: 
