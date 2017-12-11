@@ -1,32 +1,42 @@
 class student { 
+
+	exec { 'apt-get update':
+		command => '/usr/bin/apt-get update',
+		refreshonly => true,
+	}
+	
+	package { 'firefox':
+		ensure => 'latest',
+		allowcdrom => true,
+	
 	package { 'libreoffice':
-		ensure => 'installed',
+		ensure => 'latest',
 		allowcdrom => true,
 	}
 	
 	
 	package { 'vlc':
-                ensure => 'installed',
+                ensure => 'latest',
                 allowcdrom => true,
         }
 
 	package { 'geogebra':
-                ensure => 'installed',
+                ensure => 'latest',
                 allowcdrom => true,
         }
 	
 	package { 'gimp':
-                ensure => 'installed',
+                ensure => 'latest',
                 allowcdrom => true,
         }
 
 	package { 'audacity':
-                ensure => 'installed',
+                ensure => 'latest',
                 allowcdrom => true,
         }
 
 	package { 'libreoffice-l10n-fi':
-		ensure => 'installed',
+		ensure => 'latest',
 		allowcdrom => true,
 	}
 
